@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hcf and Lcm</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="hcf_lcm.css">
+</head>
+<body>
+    <div class="container-fluid">
+       
+        <div class="row div1"  >
+            <div class="col-lg-3 col-sm-1 "></div>
+
+
+            <div class="col-lg-6 col-sm-10 maindiv" >
+
+                    <h2 class="text-center" >Calculate HCF & LCM</h2>
+                    <div  class="innerdiv" >
+                        <div class="text-center"> 
+                       
+                        <input id="value1" type="number" name="value1" required autofocus placeholder="Enter 1st value" >
+                        <br><br>
+                       
+                        <input id="value2" type="number" name="value2" required placeholder="Enter 2nd value" >
+                        <br>
+                        <h3 id="answer"></h3>
+                        <br>
+                    </div>
+                        <div  class="  but-div">
+                            <button  class="btn btn-primary" id="btn1" onclick="calHCF()">HCF</button>
+                        </div>   
+                        <div  class=" but-div ">
+                            <button class="btn  btn-primary"  id="btn2" onclick="calLCM()">LCM</button>
+                        </div>   
+              
+                    </div>
+        </div>
+        <div class="col-lg-3 col-sm-1"></div>
+        
+        </div>
+
+
+    </div>
+    
+
+    <script src="hcf_lcm.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

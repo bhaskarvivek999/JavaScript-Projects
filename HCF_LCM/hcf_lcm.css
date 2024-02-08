@@ -1,0 +1,36 @@
+body{
+    background-color: skyblue  ;
+}
+
+h2{
+    color:#EDF5E1;
+    font-weight: bold;
+    padding: 10px;
+}
+.labal
+{
+    color: #EDF5E1;
+    font-weight: bold;
+}
+
+
+.but-div{
+    padding-bottom: 10px;
+    text-align: center;
+}
+.div1
+{
+    margin-top: 50px;
+}
+
+.maindiv{
+    background-color: #05386B; 
+    padding-bottom: 10px;
+}
+
+.innerdiv
+{
+    padding-top: 50px; 
+    background-color: #5cdb95; 
+    border-radius: 10px;
+}
